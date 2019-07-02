@@ -1,0 +1,58 @@
+﻿Model 8: Logit, using observations 1-45718
+Dependent variable: Criminal
+Standard errors based on Hessian
+Omitted due to exact collinearity: HLCALL99
+
+               coefficient     std. error       z        p-value 
+  ---------------------------------------------------------------
+  const         1.54541        1.52163         1.016    0.3098   
+  NRCH17_2     −0.294087       0.0459085      −6.406    1.49e-010 ***
+  IRHHSIZ2     −0.132336       0.0268205      −4.934    8.05e-07  ***
+  IRKI17_2      0.570884       0.0411725      13.87     1.02e-043 ***
+  PRXYDATA     −0.00981398     0.000779606   −12.59     2.45e-036 ***
+  MEDICARE      1.05547        0.359434        2.936    0.0033    ***
+  CAIDCHIP      0.268260       0.134684        1.992    0.0464    **
+  PRVHLTIN     −1.50155        0.354165       −4.240    2.24e-05  ***
+  GRPHLTIN     −0.0333839      0.00485498     −6.876    6.15e-012 ***
+  HLCNOTYR      0.00306972     0.00394572      0.7780   0.4366   
+  HLCNOTMO      0.00409830     0.00102012      4.017    5.88e-05  ***
+  IRMCDCHP     −0.375723       0.161931       −2.320    0.0203    **
+  IIMCDCHP    −12.0829         6.19942        −1.949    0.0513    *
+  IRMEDICR     −2.68301        0.371284       −7.226    4.96e-013 ***
+  IIMEDICR    −48.6488        16.5555         −2.939    0.0033    ***
+  IRCHMPUS     −0.130044       0.163367       −0.7960   0.4260   
+  IRPRVHLT     −2.75720        0.344383       −8.006    1.18e-015 ***
+  IIPRVHLT     72.5724        16.3268          4.445    8.79e-06  ***
+  IROTHHLT     −0.0105457      0.00435135     −2.424    0.0154    **
+  HLCALLFG     −0.0148918      0.0109149      −1.364    0.1725   
+  ANYHLTI2     −0.00910511     0.00534908     −1.702    0.0887    *
+  CELLNOTCL    −0.0138896      0.00597213     −2.326    0.0200    **
+  IRFAMSOC     −0.811890       0.0768757     −10.56     4.51e-026 ***
+  IIFAMSSI      0.329421       0.107052        3.077    0.0021    ***
+  IRFSTAMP      0.150210       0.0741805       2.025    0.0429    **
+  IRPINC3      −0.317139       0.0269419     −11.77     5.49e-032 ***
+  IRFAMIN3     −0.904071       0.0252368     −35.82     4.75e-281 ***
+  IIPINC3      −0.210042       0.0731705      −2.871    0.0041    ***
+  IIFAMIN3      0.276262       0.0440220       6.276    3.48e-010 ***
+  POVERTY3      0.302782       0.0456942       6.626    3.44e-011 ***
+  AIIND102     −0.280219       0.169991       −1.648    0.0993    *
+  ANALWT_C      1.68681e-05    4.66365e-06     3.617    0.0003    ***
+  VEREP        −0.107413       0.0466807      −2.301    0.0214    **
+
+Warning: data matrix close to singularity!
+
+Mean dependent var   0.069447   S.D. dependent var   0.254216
+McFadden R-squared   0.455858   Adjusted R-squared   0.452996
+Log-likelihood      −6274.186   Akaike criterion     12614.37
+Schwarz criterion    12902.47   Hannan-Quinn         12705.00
+
+Number of cases 'correctly predicted' = 42884 (93.8%)
+f(beta'x) at mean of independent vars = 0.005
+Likelihood ratio test: Chi-square(32) = 10512.5 [0.0000]
+
+           Predicted
+                0       1
+  Actual 0  41817     726
+         1   2108    1067
+
+Excluding the constant, p-value was highest for variable 18 (HLCNOTYR)

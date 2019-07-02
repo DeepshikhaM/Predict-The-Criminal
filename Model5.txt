@@ -1,0 +1,75 @@
+﻿Model 5: Logit, using observations 1-45718
+Dependent variable: Criminal
+Standard errors based on Hessian
+Omitted due to exact collinearity: HLCALL99
+
+               coefficient      std. error        z        p-value 
+  -----------------------------------------------------------------
+  const       −111.124         122.655          −0.9060   0.3649   
+  NRCH17_2      −0.295038        0.0463742      −6.362    1.99e-010 ***
+  IRHHSIZ2      −0.132110        0.0269043      −4.910    9.09e-07  ***
+  IRKI17_2       0.570508        0.0414107      13.78     3.51e-043 ***
+  IIHH65_2      −0.141992        0.170009       −0.8352   0.4036   
+  PRXYDATA      −0.00990088      0.000783556   −12.64     1.34e-036 ***
+  MEDICARE       0.764250        0.370759        2.061    0.0393    **
+  CAIDCHIP       0.361905        0.160188        2.259    0.0239    **
+  CHAMPUS        0.390869        0.358883        1.089    0.2761   
+  PRVHLTIN      −1.44241         0.367548       −3.924    8.69e-05  ***
+  GRPHLTIN      −0.0250335       0.00452243     −5.535    3.11e-08  ***
+  HLTINNOS       0.637037        1.06438         0.5985   0.5495   
+  HLCNOTYR       0.0123533       0.00418480      2.952    0.0032    ***
+  HLCNOTMO       0.00401339      0.00102176      3.928    8.57e-05  ***
+  IRMCDCHP      −0.468313        0.183256       −2.556    0.0106    **
+  IIMCDCHP     −16.3579          7.38015        −2.216    0.0267    **
+  IRMEDICR      −2.38545         0.382912       −6.230    4.67e-010 ***
+  IIMEDICR     −35.1643         17.0999         −2.056    0.0397    **
+  IRCHMPUS      −0.514522        0.393268       −1.308    0.1908   
+  IICHMPUS     −18.2839         16.5712         −1.103    0.2699   
+  IRPRVHLT      −3.34069         0.368224       −9.072    1.16e-019 ***
+  IIPRVHLT      69.6093         16.9448          4.108    3.99e-05  ***
+  IROTHHLT      −0.0229331       0.00964835     −2.377    0.0175    **
+  HLCALLFG      −0.0166687       0.0111518      −1.495    0.1350   
+  ANYHLTI2      −0.0241942       0.00612859     −3.948    7.89e-05  ***
+  IRINSUR4       0.660232        0.985782        0.6698   0.5030   
+  CELLNOTCL     −0.0120920       0.00924780     −1.308    0.1910   
+  CELLWRKNG      0.00241374      0.00994947      0.2426   0.8083   
+  IRFAMSOC      −0.806319        0.0784611     −10.28     8.98e-025 ***
+  IIFAMSOC      −0.0524880       0.143847       −0.3649   0.7152   
+  IRFAMSSI       0.0590564       0.140296        0.4209   0.6738   
+  IIFAMSSI       0.285540        0.131602        2.170    0.0300    **
+  IRFSTAMP       0.252135        0.155779        1.619    0.1055   
+  IIFSTAMP      −0.169564        0.192471       −0.8810   0.3783   
+  IIFAMPMT       0.130909        0.223611        0.5854   0.5583   
+  IIFAMSVC       0.0919104       0.215956        0.4256   0.6704   
+  IRWELMOS       0.00305535      0.00645455      0.4734   0.6360   
+  IIWELMOS      −0.0413666       0.0738753      −0.5600   0.5755   
+  IRPINC3       −0.315735        0.0270080     −11.69     1.43e-031 ***
+  IRFAMIN3      −0.904834        0.0253718     −35.66     1.48e-278 ***
+  IIPINC3       −0.217469        0.0742450      −2.929    0.0034    ***
+  IIFAMIN3       0.273404        0.0443639       6.163    7.15e-010 ***
+  GOVTPROG      −0.105758        0.166840       −0.6339   0.5262   
+  POVERTY3       0.301161        0.0457767       6.579    4.74e-011 ***
+  PDEN10         0.0860325       0.0754062       1.141    0.2539   
+  COUTYP2       −0.0641495       0.0601733      −1.066    0.2864   
+  AIIND102      −0.306502        0.171589       −1.786    0.0741    *
+  ANALWT_C       1.73401e-05     4.75752e-06     3.645    0.0003    ***
+  VESTR          0.00157497      0.00161073      0.9778   0.3282   
+  VEREP         −0.107544        0.0467797      −2.299    0.0215    **
+
+Warning: data matrix close to singularity!
+
+Mean dependent var   0.069447   S.D. dependent var   0.254216
+McFadden R-squared   0.457762   Adjusted R-squared   0.453426
+Log-likelihood      −6252.230   Akaike criterion     12604.46
+Schwarz criterion    13040.97   Hannan-Quinn         12741.77
+
+Number of cases 'correctly predicted' = 42876 (93.8%)
+f(beta'x) at mean of independent vars = 0.000
+Likelihood ratio test: Chi-square(49) = 10556.4 [0.0000]
+
+           Predicted
+                0       1
+  Actual 0  41810     733
+         1   2109    1066
+
+Excluding the constant, p-value was highest for variable 44 (CELLWRKNG)
